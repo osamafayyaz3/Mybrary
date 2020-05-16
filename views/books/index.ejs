@@ -6,9 +6,6 @@
 </form>
 <br>
 <% books.forEach(book => { %>
-    <div><h3>Book Name: <%= book.title  %></h3>
-        <h3>Page Count: <%= book.pageCount  %></h3>
-       <h3>Date: <%= book.publishedDate %></h3>
-    </div>
+    <img height="150" width="100" src="<%= book.coverImagePath%>" alt="asdf">
     <hr>
 <% }) %>
